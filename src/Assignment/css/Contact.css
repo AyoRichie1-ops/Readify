@@ -38,13 +38,13 @@
 }
 
 .danger {
-    background-color: red;
-    color: white;
+    /* background-color: red; */
+    color: red;
 }
 
 .success {
-    background-color: green;
-    color: white;
+    /* background-color: green; */
+    color: green;
 }
 .cbtn{
     border: none;

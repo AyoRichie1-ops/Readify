@@ -24,7 +24,7 @@ const Contact = () => {
 
   const handleSubmit = () => {
     if (!email || !firstName) {
-      showError(true, '*Fill in the necessary information*', 'danger')
+      showError(true, '* Fill in the necessary information *', 'danger')
     }
 
     else if (email.includes(("@" && ".com"))) {
@@ -36,7 +36,7 @@ const Contact = () => {
     }
 
     else  {
-      showError(true, "*Please enter a valid email address*", "danger");
+      showError(true, "* Please enter a valid email address *", "danger");
       
       
     }
